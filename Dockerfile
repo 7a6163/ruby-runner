@@ -9,6 +9,7 @@ RUN apk add --no-cache \
     imagemagick=7.1.0.50-r0 \
     libc6-compat=1.2.3-r4 \
     libffi-dev=3.4.2-r1 \
+    mariadb-dev=10.6.16-r0 \
     nodejs-current=18.9.1-r0 \
     npm=8.10.0-r0 \
     openssh-client=9.0_p1-r5 \
