@@ -18,7 +18,7 @@ RUN apk add --no-cache \
 
 WORKDIR /app
 
-RUN gem install bundler:2.4.22 uri:1.0.3
+RUN gem install bundler:2.4.22 uri:0.10.3
 
 ENV RAILS_ENV=test
 ENV RACK_ENV=test
