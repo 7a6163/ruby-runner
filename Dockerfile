@@ -14,6 +14,7 @@ RUN apk add --no-cache \
     npm=8.10.0-r0 \
     openssh-client=9.0_p1-r5 \
     postgresql12-dev=12.19-r0 \
+    poppler-utils=22.05.0-r0 \
     tini=0.19.0-r0 \
     tzdata=2024a-r0
 
