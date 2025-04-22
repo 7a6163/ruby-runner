@@ -4,6 +4,7 @@ RUN apk add --no-cache \
     bash=5.1.16-r2 \
     build-base=0.5-r3 \
     curl=8.5.0-r0 \
+    ffmpeg=5.0.3-r0 \
     file=5.41-r0 \
     git=2.36.6-r0 \
     imagemagick=7.1.0.50-r0 \
