@@ -22,6 +22,7 @@ RUN apk add --no-cache \
 WORKDIR /app
 
 RUN gem install bundler:2.4.22
+RUN ln -s /usr/bin/ffmpeg /usr/local/bin/ffmpeg
 
 ENV RAILS_ENV=test
 ENV RACK_ENV=test
