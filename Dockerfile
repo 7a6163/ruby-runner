@@ -1,4 +1,4 @@
-FROM ruby:3.3.6-alpine
+FROM ruby:3.3.7-alpine
 
 RUN apk add --no-cache \
     bash=5.2.37-r0 \
@@ -19,7 +19,7 @@ RUN apk add --no-cache \
 
 WORKDIR /app
 
-RUN gem install bundler:2.6.6
+RUN gem install bundler:2.6.8
 
 ENV RAILS_ENV=test
 ENV RACK_ENV=test
