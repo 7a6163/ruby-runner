@@ -1,4 +1,4 @@
-FROM ruby:3.3.8-alpine
+FROM ruby:3.3.7-alpine
 
 RUN apk add --no-cache \
     bash=5.2.37-r0 \
@@ -7,6 +7,7 @@ RUN apk add --no-cache \
     file=5.46-r2 \
     git=2.47.2-r0 \
     imagemagick=7.1.1.41-r0 \
+    imagemagick-dev=7.1.1.41-r0 \
     gcompat=1.1.0-r4 \
     libffi-dev=3.4.7-r0 \
     mariadb-dev=11.4.5-r0 \
