@@ -15,7 +15,8 @@ RUN apk add --no-cache \
     openssh-client-default=9.9_p2-r0 \
     postgresql17-dev=17.4-r0 \
     tini=0.19.0-r3 \
-    tzdata=2025b-r0
+    tzdata=2025b-r0 \
+    yaml-dev=0.2.5-r2
 
 WORKDIR /app
 
