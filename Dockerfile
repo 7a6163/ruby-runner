@@ -6,6 +6,7 @@ RUN apk add --no-cache \
     curl=8.5.0-r0 \
     ffmpeg=5.0.3-r0 \
     file=5.41-r0 \
+    gcompat=1.0.0-r4 \
     git=2.36.6-r0 \
     imagemagick6=6.9.12.65-r0 \
     imagemagick6-dev=6.9.12.65-r0 \
