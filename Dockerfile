@@ -7,8 +7,8 @@ RUN apk add --no-cache \
     ffmpeg=5.0.3-r0 \
     file=5.41-r0 \
     git=2.36.6-r0 \
-    imagemagick=7.1.0.50-r0 \
-    imagemagick-dev=7.1.0.50-r0 \
+    imagemagick6=6.9.12.65-r0 \
+    imagemagick6-dev=6.9.12.65-r0 \
     libc6-compat=1.2.3-r4 \
     libffi-dev=3.4.2-r1 \
     mariadb-dev=10.6.16-r0 \
