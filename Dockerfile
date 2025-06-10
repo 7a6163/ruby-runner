@@ -17,7 +17,9 @@ RUN apk add --no-cache \
     postgresql17-dev \
     tini \
     tzdata \
-    yaml-dev
+    yaml-dev \
+    zlib-dev \
+    cmake
 
 WORKDIR /app
 
