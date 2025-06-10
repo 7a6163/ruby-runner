@@ -1,0 +1,32 @@
+FROM ruby:3.3.8-slim
+
+# Install dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    bash \
+    build-essential \
+    curl \
+    file \
+    git \
+    imagemagick \
+    libmagickwand-dev \
+    libffi-dev \
+    default-libmysqlclient-dev \
+    nodejs \
+    npm \
+    openssh-client \
+    libpq-dev \
+    tini \
+    tzdata \
+    libyaml-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+RUN gem install bundler:2.6.8
+
+ENV RAILS_ENV=test
+ENV RACK_ENV=test
+
+ENTRYPOINT ["/usr/bin/tini", "--"]
+
+CMD ["bash"]
