@@ -1,4 +1,4 @@
-FROM ruby:3.3.8-alpine
+FROM ruby:3.4.1-alpine
 
 RUN apk add --no-cache \
     bash=5.2.37-r0 \
