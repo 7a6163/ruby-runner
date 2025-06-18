@@ -14,7 +14,7 @@ RUN apk add --no-cache \
     nodejs-current=23.2.0-r1 \
     npm=10.9.1-r0 \
     openssh-client-default=9.9_p2-r0 \
-    postgresql17-dev=17.4-r0 \
+    postgresql17-dev=17.5-r0 \
     tini=0.19.0-r3 \
     tzdata=2025b-r0 \
     yaml-dev=0.2.5-r2
