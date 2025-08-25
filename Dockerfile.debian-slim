@@ -24,6 +24,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 RUN gem install bundler:2.6.8
+RUN ln -s /usr/lib/x86_64-linux-musl/libc.so /lib/libc.musl-x86_64.so.1
 
 ENV RAILS_ENV=test
 ENV RACK_ENV=test
