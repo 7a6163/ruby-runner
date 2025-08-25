@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libmagickwand-dev \
     libffi-dev \
     default-libmysqlclient-dev \
+    musl-dev \
     nodejs \
     npm \
     openssh-client \
