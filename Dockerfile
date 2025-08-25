@@ -9,7 +9,6 @@ RUN apk add --no-cache \
     imagemagick=7.1.2.0-r0 \
     imagemagick-dev=7.1.2.0-r0 \
     gcompat=1.1.0-r4 \
-    libc6-compat=1.2.5-r10 \
     libffi-dev=3.4.8-r0 \
     mariadb-dev=11.4.5-r2 \
     nodejs-current=23.11.0-r0 \
