@@ -8,13 +8,17 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     file \
     git \
     imagemagick \
-    libmagickwand-dev \
     libffi-dev \
+    libgirepository1.0-dev \
+    libglib2.0-dev \
+    libcairo2-dev \
+    libmagickwand-dev \
     default-libmysqlclient-dev \
     musl-dev \
     nodejs \
     npm \
     openssh-client \
+    pkg-config \
     libpq-dev \
     tini \
     tzdata \
