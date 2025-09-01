@@ -10,8 +10,8 @@ RUN apk add --no-cache \
     imagemagick-dev=7.1.2.0-r0 \
     gcompat=1.1.0-r4 \
     libffi-dev=3.4.8-r0 \
-    mariadb-dev=11.4.5-r2 \
-    nodejs-current=23.11.0-r0 \
+    mariadb-dev=11.4.8-r0 \
+    nodejs-current=23.11.1-r0 \
     npm=11.3.0-r1 \
     openssh-client-default=10.0_p1-r7 \
     postgresql17-dev=17.6-r0 \
