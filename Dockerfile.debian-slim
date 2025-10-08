@@ -21,6 +21,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     openssh-client \
     pkg-config \
     libpq-dev \
+    poppler-utils \
     tini \
     tzdata \
     libyaml-dev \
