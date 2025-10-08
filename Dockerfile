@@ -4,6 +4,7 @@ RUN apk add --no-cache \
     bash \
     build-base \
     curl \
+    ffmpeg \
     file \
     git \
     imagemagick \
