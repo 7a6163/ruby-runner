@@ -14,6 +14,7 @@ RUN apk add --no-cache \
     nodejs-current \
     npm \
     openssh-client-default \
+    poppler-utils \
     postgresql17-dev \
     tini \
     tzdata \
